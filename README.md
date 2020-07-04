@@ -30,6 +30,12 @@
 ###### Here it already accessed into a S3 account, read its content and showing available buckets.
 ------------------------
 
+
+![All windows](https://github.com/hooman734/S3-Browser-Tkinter/blob/master/screenshots/all_windows.png)
+
+###### Here the application is going to download a selected file and also to upload any chosen file into the focused bucket.
+------------------------
+
 [0]: https://www.python.org/download/releases/3.0/
 [1]: https://docs.python.org/3/library/tkinter.html
 [2]: https://aws.amazon.com/

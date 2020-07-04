@@ -1,6 +1,6 @@
 ## About  
 
-### This application is developed using [Python3][0] - [Tkinter][1] aiming to simply browse buckets, download and upload files into it.
+### This application is developed using [Python3][0] - [Tkinter][1] aiming to simply browse buckets, download files from and upload to it.
 #### *This application works either with real [AWS][2] or mocked [S3][3] using [Localstack][4].*  
 
 * #### Python 3.7.6

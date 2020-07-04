@@ -1,12 +1,22 @@
 ## About  
 
 ### This application is developed by using [Python3][0] - [Tkinter][1] aiming to simply browse buckets, download and upload files into it.
-#### This application works either with real [AWS][2] or mocked [S3][3] using [Localstack][4].  
+#### *This application works either with real [AWS][2] or mocked [S3][3] using [Localstack][4].*  
 
+### Dependencies
++ `tkinter`
++ `tkinter.ttk`
++ `boto3`
++ `botocore`
++ `PIL`
++ `csv`
+
+
+### Description
 
 ![Idle](https://github.com/hooman734/S3-Browser-Tkinter/blob/master/screenshots/idle.png)
 
-Here the application has read Credential keys from provided csv file from AWS. It is ready to Login and browse over the S3 account to show its content.
+Here the application has read credential keys from provided csv file from AWS. It is ready to Login and browse over the S3 account to show its content.
 
 ![Idle](https://github.com/hooman734/S3-Browser-Tkinter/blob/master/screenshots/read_keys.png)
 

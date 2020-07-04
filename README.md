@@ -56,4 +56,3 @@ and run `~$ python3 App.py`
 [2]: https://aws.amazon.com/
 [3]: https://en.wikipedia.org/wiki/S3
 [4]: https://localstack.cloud/
-[5]:

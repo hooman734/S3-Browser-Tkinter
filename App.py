@@ -167,6 +167,23 @@ def iterate_over_buckets():
         aws_status_label['bg'] = 'Green'
         aws_status_label['fg'] = 'Yellow'
 
+    except exc.ClientError as e:
+        aws_status_label['text'] = "Invalid keys!"
+        aws_status_label['fg'] = 'yellow'
+        aws_status_label['bg'] = '#781e00'
+        list_box.insert(i, str(e).split(':')[0] + ' : ')
+        list_box.insert(i + 1, '"https://' + str(e).split('//')[-1])
+        print("--------->", e)
+
+        list_box.pack()
+        bucket_label.pack()
+
+        exit_button = Button(action_box, text="Exit!", padx=100, command=lambda: buckets.quit())
+
+        exit_button.grid(row=0, column=0, columnspan=2)
+
+        action_box.pack()
+
     except exc.EndpointConnectionError as e:
         aws_status_label['text'] = "Login failed!"
         aws_status_label['fg'] = 'yellow'

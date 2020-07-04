@@ -1,6 +1,6 @@
 ## About  
 
-### This application is developed by using [Python3][0] - [Tkinter][1] aiming to simply browse buckets, download and upload files into it.
+### This application is developed using [Python3][0] - [Tkinter][1] aiming to simply browse buckets, download and upload files into it.
 #### *This application works either with real [AWS][2] or mocked [S3][3] using [Localstack][4].*  
 
 * #### Python 3.7.6
@@ -16,7 +16,7 @@
 + `csv`
 
 
-### Description
+### How to run
 install all depencencies 
   + `sudo apt-get install python3`
   + `sudo apt-get install python3-pip`

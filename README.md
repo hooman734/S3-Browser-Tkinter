@@ -4,7 +4,7 @@
 #### *This application works either with real [AWS][2] or mocked [S3][3] using [Localstack][4].*  
 
 * #### Python 3.7.6
-* #### Tkinter 0.3.1
+* #### Tkinter 8.6
 
 
 ### Dependencies

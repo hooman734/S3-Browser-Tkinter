@@ -18,8 +18,10 @@
 
 Here the application has read credential keys from provided csv file from AWS. It is ready to Login and browse over the S3 account to show its content.
 
-![Idle](https://github.com/hooman734/S3-Browser-Tkinter/blob/master/screenshots/read_keys.png)
+![Ready to import credential](https://github.com/hooman734/S3-Browser-Tkinter/blob/master/screenshots/read_keys.png)
 
+
+![Logged in](https://github.com/hooman734/S3-Browser-Tkinter/blob/master/screenshots/imported_logged_in.png)
 
 [0]: https://www.python.org/download/releases/3.0/
 [1]: https://docs.python.org/3/library/tkinter.html
